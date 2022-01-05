@@ -71,7 +71,7 @@ $(".btn").click(function() {
         playSound("wrong");
         $("body").addClass("game-over");
         setTimeout(function () {$("body").removeClass("game-over");}, 200);
-        $("#level-title").text("Game Over, Press Any Key or click on play button (mobile user) to Restart");
+        $("#level-title").text("Game Over, Press Any Key or click on play button (mobile) to Restart");
         startOver();
         }
 
